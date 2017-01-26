@@ -3,6 +3,8 @@
 Created on Wed Jul 27 14:25:37 2016
 
 @author: rarnason
+this reduction script was adapted from Richard Shaw's GMOS Data Reduction Cookbook, available at:
+http://ast.noao.edu/sites/default/files/GMOS_Cookbook/
 """
 
 import sys
