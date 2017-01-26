@@ -1,0 +1,47 @@
+Gemini-South: Electronic Observing Log for: GS-PLAN20081129
+--------------------------------------------------------------------------------------------------------------------------------------------
+Day Observers      : P. Prado
+Night Observers    : F.Rantakyro, S. Margheim
+Night SSA          : E. Wenderoth
+Dataproc Observer  : P. Candia
+Observer Comment   : 
+File Prefix        : S20081129S
+CC Software Version: 
+DC Software Version: 
+Software Comment   : 
+Weather Summary
+-----------------------------------------------------------------------------------------------------------------------------------------------
+UTC Time           Temperature(C)  Wind Speed(m/s)  Wind Direction(deg)  Barometric Pressure(mb)  Relative Humidity(%)  Water Vapor(mm)  Dimm  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+11/28/08 17:00:02  9.27            5.74             341.34               733.00                   49.00                                  0.99  
+11/28/08 19:00:02  9.93            4.79             334.77               733.40                   49.13                                  0.99  
+11/28/08 21:00:02  9.54            5.21             332.84               733.16                   58.81                                  0.99  
+11/28/08 23:00:02  9.55            0.22             83.09                732.46                   60.78                                  0.99  
+11/29/08 01:00:02  9.91            4.53             347.95               731.76                   49.49                                  1.20  
+11/29/08 03:00:01  9.15            3.48             345.35               731.76                   56.96                                  1.04  
+11/29/08 05:00:02  9.26            4.98             348.54               731.08                   45.19                                  1.08  
+11/29/08 07:00:01  8.82            7.00             348.74               730.52                   35.08                                  1.24  
+11/29/08 09:00:01  9.10            10.10            345.62               730.09                   15.84                                  1.24  
+11/29/08 11:00:02  8.83            8.72             354.48               731.30                   23.77                                  1.24  
+GMOS Observing Log
+---------------------------------------------------------------------------------------------------------------------------------
+Observation ID    Dataset UT  Data Labels  File Numbers  Target Name  Filters  Disperser   Mask            Exposure Time  ROI    
+---------------------------------------------------------------------------------------------------------------------------------
+GS-2008B-Q-25-13  00:32:03    1            31            CD-34 241           g        mirror      none            4.0            stamp  
+GS-2008B-Q-25-13  00:37:24    2            32            CD-34 241           g        mirror      1.0arcsec       10.0           stamp  
+GS-2008B-Q-25-13  01:00:07    4            33            LTT1020             g        mirror      none            4.0            stamp  
+GS-2008B-Q-25-13  01:02:53    5            34            LTT1020             g        mirror      1.0arcsec       10.0           stamp  
+GS-2008B-Q-25-13  01:04:41    6            35            LTT1020             g        mirror      1.0arcsec       4.0            stamp  
+GS-2008B-Q-25-14  01:06:49    1            36            LTT1020             none     B600/415.0  1.0arcsec       90.0           full   
+GS-2008B-Q-25-14  Acquisition gave seeing ~1.2&quot;
+GS-2008B-Q-25-14  01:09:09    2            37            GCALflat            none     B600/415.0  1.0arcsec       2.0            full   
+GS-2008B-Q-25-14  01:10:05    3            38            GCALflat            none     B600/520.0  1.0arcsec       1.0            full   
+GS-2008B-Q-25-14  01:10:56    4            39            LTT1020             none     B600/520.0  1.0arcsec       90.0           full   
+GS-2008B-Q-25-14  Counts ~20000
+GS-2008B-Q-25-14  01:13:18    5            40            LTT1020             none     B600/625.0  1.0arcsec       90.0           full   
+GS-2008B-Q-25-14  Counts ~20000
+GS-2008B-Q-25-14  01:15:37    6            41            GCALflat            none     B600/625.0  1.0arcsec       1.0            full   
+GS-2008B-Q-25-14  Counts ~20000
+GS-2008B-Q-25-15  09:22:25    1            91            CuAr                none     B600/415.0  1.0arcsec       10.0           full   
+GS-2008B-Q-25-15  09:23:16    2            92            CuAr                none     B600/520.0  1.0arcsec       10.0           full   
+GS-2008B-Q-25-15  09:24:08    3            93            CuAr                none     B600/625.0  1.0arcsec       10.0           full   

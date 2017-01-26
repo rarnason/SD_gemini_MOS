@@ -1,0 +1,102 @@
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Wed Jan 25 11:41:04 EST 2017
+ 
+GEMCOMBINE: input = gsS20081120S0051
+GEMCOMBINE: output = Sculptor-field1B6-522
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: only one image to combine.
+ 
+GEMCOMBINE -- Finished: Wed Jan 25 11:41:05 EST 2017
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Wed Jan 25 11:41:05 EST 2017
+ 
+GEMCOMBINE: input = gsS20081120S0047
+GEMCOMBINE: output = Sculptor-field1B6-520
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: only one image to combine.
+ 
+GEMCOMBINE -- Finished: Wed Jan 25 11:41:05 EST 2017
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Wed Jan 25 11:41:05 EST 2017
+ 
+GEMCOMBINE: input = gsS20081120S0052
+GEMCOMBINE: output = Sculptor-field1B6-525
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: only one image to combine.
+ 
+GEMCOMBINE -- Finished: Wed Jan 25 11:41:06 EST 2017
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Wed Jan 25 11:41:06 EST 2017
+ 
+GEMCOMBINE: input = gsS20081129S0036
+GEMCOMBINE: output = LTT1020B6-625
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: only one image to combine.
+ 
+GEMCOMBINE -- Finished: Wed Jan 25 11:41:06 EST 2017
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Wed Jan 25 11:41:06 EST 2017
+ 
+GEMCOMBINE: input = gsS20081129S0036
+GEMCOMBINE: output = LTT1020B6-520
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: only one image to combine.
+ 
+GEMCOMBINE -- Finished: Wed Jan 25 11:41:06 EST 2017
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Wed Jan 25 11:41:06 EST 2017
+ 
+GEMCOMBINE: input = gsS20081129S0036
+GEMCOMBINE: output = LTT1020B6-415
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: only one image to combine.
+ 
+GEMCOMBINE -- Finished: Wed Jan 25 11:41:06 EST 2017
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
