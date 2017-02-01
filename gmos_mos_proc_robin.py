@@ -190,7 +190,7 @@ def gmos_mos_proc():
                   flatim=flatName, fl_fixpix='yes')
 
     # Clean up - uncomment this eventually
-    #iraf.imdel('gS2008*.fits')
+    iraf.imdel('gS2008*.fits')
 
     print ("=== Finished Basic Calibration Processing ===")
     print ("\n")
@@ -199,23 +199,29 @@ def gmos_mos_proc():
     #note that this construction works because there's only one exposure per position/grating/cenwave combo 
     #if you have multiple exposures, comment this block out and use gemcombine to do outlier rejection when combining images instead
     gemtools.gemcrspec.unlearn()
-
+    gemtools.gemcrspec.xorder = '9'
+    gemtools.gemcrspec.yorder = '-1'
+    gemtools.gemcrspec.sigclip = '4.5'   
+    gemtools.gemcrspec.sigfrac= '0.5'
+    gemtools.gemcrspec.objlim = '1.0'
+    gemtools.gemcrspec.verbose = 'no'
     prefix = 'gs'
     for tag,w in cwf.iteritems():
         qdf['Disperser'] = tag[0:2] + '00+_%'
         qdf['CentWave'] = w
-        outFile = qdf['Object'] + tag
+        outFile = qdf['Object'] + '-M01_' + tag
         sciFull = fs.fileListQuery(dbFile, fs.createQuery('sciSpec', qdf), qdf)
         gemtools.gemcrspec(','.join(prefix+str(x) for x in sciFull), outFile)
     # Do the same for the standard star
     for tag,w in cws.iteritems():
-        qdf['Disperser'] = tag[0:2] + '00+_%'
-        qdf['CentWave'] = w
-        outFile = qd_std['Object'] + tag
+        qd_std['Disperser'] = tag[0:2] + '00+_%'
+        qd_std['CentWave'] = w
+        outFile = qd_std['Object'] + '-M01_' + tag
         stdFull = fs.fileListQuery(dbFile, fs.createQuery('std', qd_std), qd_std)
         gemtools.gemcrspec(','.join(prefix+str(x) for x in stdFull), outFile)  
 
 
+    #comment block for doing outlier rejection with multiple exposures per position/grating/cenwave combo
     '''
     # Use primarily the default task parameters.
     gemtools.gemcombine.unlearn()
@@ -239,6 +245,83 @@ def gmos_mos_proc():
         stdFull = fs.fileListQuery(dbFile, fs.createQuery('std', qd_std), qd_std)
         gemtools.gemcombine (','.join(prefix+str(x) for x in stdFull), outFile)
     '''
+
+    print ("=== Begining wavelength calibration ===")
+    print (" -- Deriving wavelength calibration --")
+    
+    # Begin with longslit Arcs.
+    # The fit to the dispersion relation should be performed interactively;
+    # here we will us a previously determined result.
+    # There are many arcs to choose from: we only need one for each setting.
+
+    gmos.gswavelength.unlearn()
+    waveFlags = {
+    	'coordlist':'gmos$data/CuAr_GMOS.dat','fwidth':6,'nsum':50,
+    	'function':'chebyshev','order':5,
+    	'fl_inter':'no','logfile':'gswaveLog.txt','verbose':'no'
+    	}
+
+
+    for seq in ['091','092','093']:
+        inFile = prefix + 'S20081129S0' + seq
+        gmos.gswavelength(inFile,**waveFlags)
+    
+    #  Now for the MOS arcs
+    waveFlags.update({'order':7,'nsum':20,'step':2})
+    
+    for seq in ['249','250','251']:
+        inFile = prefix + 'S20081120S0' + seq
+        gmos.gswavelength(inFile,**waveFlags)
+
+    #This block is in the tutorial but it seems incorrect - it applies the calibration to non gsreduced arcs!!
+    '''
+    for tag,w in cwf.iteritems():
+    	qdf['Disperser'] = tag[0:2] + '00+_%'
+    	qdf['CentWave'] = w
+    	outFile = qdf['Object'] + tag
+    	arcFull = fs.fileListQuery(dbFile, fs.createQuery('arcP', qdf), qdf)
+    	gmos.gswavelength (','.join(prefix+str(x) for x in arcFull),**waveFlags)
+    '''
+    
+    print (" -- Applying wavelength calibration -- ")
+    gmos.gstransform.unlearn()
+    transFlags = {
+    'fl_vardq':'no','interptype':'linear','fl_flux':'yes',
+    'logfile':'gstransformLog.txt','verbose':'no'
+    }
+    
+    #Construct a mapping for the wavelength calibration. Format (arc id,sci/std id,target):'filter/disperser'
+    print (" -- Calibrating standard star exposures -- ")
+    gmos.gstransform ('LTT1020-M01_B6-415', wavtraname='gsS20081129S0091',
+                  **transFlags)
+    gmos.gstransform ('LTT1020-M01_B6-520', wavtraname='gsS20081129S0092',
+                  **transFlags)
+    gmos.gstransform ('LTT1020-M01_B6-625', wavtraname='gsS20081129S0093',
+                  **transFlags)
+    #This block seems to operate on the non CR-cleaned images! 
+    '''
+    transMap = {
+	('091','036','LTT1020'):'B6-415',
+        ('092','039','LTT1020'):'B6-520',
+	('093','040','LTT1020'):'B6-625'
+	}
+    print (" -- Calibrating standard star exposures -- ")
+    for id,tag in transMap.iteritems():
+        inFile = 'gsS20081129S0' + id[1]
+        wavFile = 'gsS20081129S0' + id[0]
+        outFile = 't' + id[2] + '_' + tag
+	gmos.gstransform(inFile,outimages=outFile,wavtraname=wavFile)
+    '''
+    print (" -- Calibrating MOS science exposures -- ")
+    
+    transFlags.update({'fl_vardq':'yes'})
+    gmos.gstransform ('Sculptor-field1-M01_B6-520', wavtraname='gsS20081120S0249',
+                  **transFlags)
+    gmos.gstransform ('Sculptor-field1-M01_B6-522', wavtraname='gsS20081120S0250',
+                  **transFlags)
+    gmos.gstransform ('Sculptor-field1-M01_B6-525', wavtraname='gsS20081120S0251',
+                  **transFlags)
+    
 
     print (" --Processing done-- ")
     

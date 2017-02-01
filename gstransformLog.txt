@@ -1,0 +1,2037 @@
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Feb  1 14:31:37 EST 2017
+ 
+
+inimages   = Sculptor-field1-M01_B6-520
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20081120S0249
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,1]
+MDF row: 4
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:38 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,1] to tmpsci8007_3533.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_004
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4371., x2 =      7218., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,2]
+MDF row: 5
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:38 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,2] to tmpsci8007_3536.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_005
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3067., x2 =      5911., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,3]
+MDF row: 6
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:38 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,3] to tmpsci8007_3539.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_006
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4387., x2 =      7233., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,4]
+MDF row: 7
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:38 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,4] to tmpsci8007_3542.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_007
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3527., x2 =      6372., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,5]
+MDF row: 8
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:38 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,5] to tmpsci8007_3545.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_008
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3362., x2 =      6206., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,6]
+MDF row: 9
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:38 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,6] to tmpsci8007_3548.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_009
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3620., x2 =      6466., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,7]
+MDF row: 10
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:38 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,7] to tmpsci8007_3551.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_010
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3932., x2 =      6778., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,8]
+MDF row: 11
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:38 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,8] to tmpsci8007_3554.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_011
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3495., x2 =      6341., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,9]
+MDF row: 12
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:38 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,9] to tmpsci8007_3557.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_012
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3033., x2 =      5821., dx =      1.831, nx = 1523, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,10]
+MDF row: 13
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:38 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,10] to tmpsci8007_3560.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_013
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4376., x2 =      7223., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,11]
+MDF row: 14
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:39 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,11] to tmpsci8007_3563.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_014
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4483., x2 =      7330., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,12]
+MDF row: 15
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:39 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,12] to tmpsci8007_3566.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_015
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4175., x2 =      7022., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,13]
+MDF row: 16
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:39 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,13] to tmpsci8007_3569.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_016
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3257., x2 =      6100., dx =       1.83, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,14]
+MDF row: 17
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:39 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,14] to tmpsci8007_3572.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_017
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3036., x2 =      5860., dx =       1.83, nx = 1544, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,15]
+MDF row: 18
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:39 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,15] to tmpsci8007_3575.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_018
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3043., x2 =      5884., dx =      1.829, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,16]
+MDF row: 19
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:39 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,16] to tmpsci8007_3578.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_019
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3132., x2 =      5975., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,17]
+MDF row: 20
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:39 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,17] to tmpsci8007_3581.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_020
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3849., x2 =      6695., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,18]
+MDF row: 21
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:39 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,18] to tmpsci8007_3584.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_021
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3631., x2 =      6476., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,19]
+MDF row: 22
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:39 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,19] to tmpsci8007_3587.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_022
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4204., x2 =      7050., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,20]
+MDF row: 23
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:39 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,20] to tmpsci8007_3590.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_023
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3589., x2 =      6435., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,21]
+MDF row: 24
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:40 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,21] to tmpsci8007_3593.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_024
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3975., x2 =      6819., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,22]
+MDF row: 25
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:40 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,22] to tmpsci8007_3596.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_025
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4287., x2 =      7132., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Feb  1 14:31:40 EST 2017
+ 
+
+inimages   = Sculptor-field1-M01_B6-522
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20081120S0250
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,1]
+MDF row: 4
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:40 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,1] to tmpsci8007_3608.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_004
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4398., x2 =      7245., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,2]
+MDF row: 5
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:40 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,2] to tmpsci8007_3611.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_005
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3097., x2 =      5939., dx =       1.83, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,3]
+MDF row: 6
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:40 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,3] to tmpsci8007_3614.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_006
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4414., x2 =      7260., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,4]
+MDF row: 7
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:40 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,4] to tmpsci8007_3617.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_007
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3551., x2 =      6412., dx =      1.842, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,5]
+MDF row: 8
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:40 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,5] to tmpsci8007_3620.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_008
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3390., x2 =      6234., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,6]
+MDF row: 9
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:40 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,6] to tmpsci8007_3623.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_009
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3647., x2 =      6494., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,7]
+MDF row: 10
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:41 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,7] to tmpsci8007_3626.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_010
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3959., x2 =      6806., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,8]
+MDF row: 11
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:41 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,8] to tmpsci8007_3629.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_011
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3523., x2 =      6369., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,9]
+MDF row: 12
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:41 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,9] to tmpsci8007_3632.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_012
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3039., x2 =      5849., dx =      1.831, nx = 1536, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,10]
+MDF row: 13
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:41 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,10] to tmpsci8007_3635.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_013
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4403., x2 =      7250., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,11]
+MDF row: 14
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:41 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,11] to tmpsci8007_3638.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_014
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4510., x2 =      7357., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,12]
+MDF row: 15
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:41 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,12] to tmpsci8007_3641.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_015
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4202., x2 =      7049., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,13]
+MDF row: 16
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:41 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,13] to tmpsci8007_3644.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_016
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3284., x2 =      6128., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,14]
+MDF row: 17
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:41 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,14] to tmpsci8007_3647.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_017
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3045., x2 =      5888., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,15]
+MDF row: 18
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:41 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,15] to tmpsci8007_3650.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_018
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3070., x2 =      5912., dx =       1.83, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,16]
+MDF row: 19
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:41 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,16] to tmpsci8007_3653.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_019
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3160., x2 =      6003., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,17]
+MDF row: 20
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:42 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,17] to tmpsci8007_3656.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_020
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3876., x2 =      6722., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,18]
+MDF row: 21
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:42 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,18] to tmpsci8007_3659.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_021
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3658., x2 =      6504., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,19]
+MDF row: 22
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:42 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,19] to tmpsci8007_3662.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_022
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4231., x2 =      7078., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,20]
+MDF row: 23
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:42 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,20] to tmpsci8007_3665.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_023
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3617., x2 =      6463., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,21]
+MDF row: 24
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:42 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,21] to tmpsci8007_3668.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_024
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4002., x2 =      6847., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,22]
+MDF row: 25
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:42 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,22] to tmpsci8007_3671.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_025
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4314., x2 =      7160., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Feb  1 14:31:42 EST 2017
+ 
+
+inimages   = Sculptor-field1-M01_B6-525
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20081120S0251
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,1]
+MDF row: 4
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:42 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,1] to tmpsci8007_3683.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_004
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4425., x2 =      7272., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,2]
+MDF row: 5
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:43 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,2] to tmpsci8007_3686.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_005
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3123., x2 =      5967., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,3]
+MDF row: 6
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:43 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,3] to tmpsci8007_3689.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_006
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4440., x2 =      7288., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,4]
+MDF row: 7
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:43 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,4] to tmpsci8007_3692.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_007
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3581., x2 =      6428., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,5]
+MDF row: 8
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:43 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,5] to tmpsci8007_3695.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_008
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3417., x2 =      6262., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,6]
+MDF row: 9
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:43 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,6] to tmpsci8007_3698.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_009
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3675., x2 =      6522., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,7]
+MDF row: 10
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:43 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,7] to tmpsci8007_3701.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_010
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3953., x2 =      6836., dx =      1.856, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,8]
+MDF row: 11
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:43 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,8] to tmpsci8007_3704.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_011
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3550., x2 =      6397., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,9]
+MDF row: 12
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:43 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,9] to tmpsci8007_3707.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_012
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3040., x2 =      5877., dx =      1.832, nx = 1550, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,10]
+MDF row: 13
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:43 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,10] to tmpsci8007_3710.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_013
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4430., x2 =      7278., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,11]
+MDF row: 14
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:43 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,11] to tmpsci8007_3713.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_014
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4537., x2 =      7385., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,12]
+MDF row: 15
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:44 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,12] to tmpsci8007_3716.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_015
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4229., x2 =      7077., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,13]
+MDF row: 16
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:44 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,13] to tmpsci8007_3719.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_016
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3312., x2 =      6156., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,14]
+MDF row: 17
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:44 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,14] to tmpsci8007_3722.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_017
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3073., x2 =      5916., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,15]
+MDF row: 18
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:44 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,15] to tmpsci8007_3725.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_018
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3097., x2 =      5941., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,16]
+MDF row: 19
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:44 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,16] to tmpsci8007_3728.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_019
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3188., x2 =      6032., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,17]
+MDF row: 20
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:44 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,17] to tmpsci8007_3731.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_020
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3906., x2 =      6727., dx =      1.817, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,18]
+MDF row: 21
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:44 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,18] to tmpsci8007_3734.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_021
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3683., x2 =      6543., dx =      1.841, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,19]
+MDF row: 22
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:44 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,19] to tmpsci8007_3737.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_022
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4258., x2 =      7106., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,20]
+MDF row: 23
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:44 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,20] to tmpsci8007_3740.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_023
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3644., x2 =      6491., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,21]
+MDF row: 24
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:44 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,21] to tmpsci8007_3743.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_024
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4030., x2 =      6849., dx =      1.815, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,22]
+MDF row: 25
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:31:45 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,22] to tmpsci8007_3746.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_025
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4340., x2 =      7187., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Feb  1 14:46:42 EST 2017
+ 
+
+inimages   = LTT1020-M01_B6-415
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20081129S0091
+database   = database
+fl_vardq   = no
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+
+Transforming LTT1020-M01_B6-415.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:43 01-Feb-2017
+  Transform LTT1020-M01_B6-415.fits[SCI,1] to tmpsci9405_1780.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081129S0091_001
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      2769., x2 =      5580., dx =       1.81, nx = 1554, xlog = no
+    y1 =         1., y2 =      2304., dy =         1., ny = 2304, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Feb  1 14:46:43 EST 2017
+ 
+
+inimages   = LTT1020-M01_B6-520
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20081129S0092
+database   = database
+fl_vardq   = no
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+
+Transforming LTT1020-M01_B6-520.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:44 01-Feb-2017
+  Transform LTT1020-M01_B6-520.fits[SCI,1] to tmpsci9405_1792.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081129S0092_001
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3799., x2 =      6646., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =      2304., dy =         1., ny = 2304, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Feb  1 14:46:44 EST 2017
+ 
+
+inimages   = LTT1020-M01_B6-625
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20081129S0093
+database   = database
+fl_vardq   = no
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+
+Transforming LTT1020-M01_B6-625.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:45 01-Feb-2017
+  Transform LTT1020-M01_B6-625.fits[SCI,1] to tmpsci9405_1804.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081129S0093_001
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4836., x2 =      7707., dx =      1.849, nx = 1554, xlog = no
+    y1 =         1., y2 =      2304., dy =         1., ny = 2304, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Feb  1 14:46:45 EST 2017
+ 
+
+inimages   = Sculptor-field1-M01_B6-520
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20081120S0249
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,1]
+MDF row: 4
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:45 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,1] to tmpsci9405_1816.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_004
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4371., x2 =      7218., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,2]
+MDF row: 5
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:46 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,2] to tmpsci9405_1819.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_005
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3067., x2 =      5911., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,3]
+MDF row: 6
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:46 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,3] to tmpsci9405_1822.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_006
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4387., x2 =      7233., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,4]
+MDF row: 7
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:46 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,4] to tmpsci9405_1825.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_007
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3527., x2 =      6372., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,5]
+MDF row: 8
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:46 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,5] to tmpsci9405_1828.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_008
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3362., x2 =      6206., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,6]
+MDF row: 9
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:46 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,6] to tmpsci9405_1831.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_009
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3620., x2 =      6466., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,7]
+MDF row: 10
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:46 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,7] to tmpsci9405_1834.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_010
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3932., x2 =      6778., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,8]
+MDF row: 11
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:46 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,8] to tmpsci9405_1837.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_011
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3495., x2 =      6341., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,9]
+MDF row: 12
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:46 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,9] to tmpsci9405_1840.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_012
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3033., x2 =      5821., dx =      1.831, nx = 1523, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,10]
+MDF row: 13
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:46 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,10] to tmpsci9405_1843.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_013
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4376., x2 =      7223., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,11]
+MDF row: 14
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:46 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,11] to tmpsci9405_1846.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_014
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4483., x2 =      7330., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,12]
+MDF row: 15
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:46 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,12] to tmpsci9405_1849.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_015
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4175., x2 =      7022., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,13]
+MDF row: 16
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:47 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,13] to tmpsci9405_1852.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_016
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3257., x2 =      6100., dx =       1.83, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,14]
+MDF row: 17
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:47 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,14] to tmpsci9405_1855.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_017
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3036., x2 =      5860., dx =       1.83, nx = 1544, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,15]
+MDF row: 18
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:47 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,15] to tmpsci9405_1858.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_018
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3043., x2 =      5884., dx =      1.829, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,16]
+MDF row: 19
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:47 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,16] to tmpsci9405_1861.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_019
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3132., x2 =      5975., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,17]
+MDF row: 20
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:47 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,17] to tmpsci9405_1864.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_020
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3849., x2 =      6695., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,18]
+MDF row: 21
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:47 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,18] to tmpsci9405_1867.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_021
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3631., x2 =      6476., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,19]
+MDF row: 22
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:47 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,19] to tmpsci9405_1870.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_022
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4204., x2 =      7050., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,20]
+MDF row: 23
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:47 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,20] to tmpsci9405_1873.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_023
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3589., x2 =      6435., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,21]
+MDF row: 24
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:47 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,21] to tmpsci9405_1876.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_024
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3975., x2 =      6819., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-520.fits[SCI,22]
+MDF row: 25
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:48 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-520.fits[SCI,22] to tmpsci9405_1879.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0249_025
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4287., x2 =      7132., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Feb  1 14:46:48 EST 2017
+ 
+
+inimages   = Sculptor-field1-M01_B6-522
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20081120S0250
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,1]
+MDF row: 4
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:48 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,1] to tmpsci9405_1891.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_004
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4398., x2 =      7245., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,2]
+MDF row: 5
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:48 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,2] to tmpsci9405_1894.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_005
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3097., x2 =      5939., dx =       1.83, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,3]
+MDF row: 6
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:48 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,3] to tmpsci9405_1897.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_006
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4414., x2 =      7260., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,4]
+MDF row: 7
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:48 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,4] to tmpsci9405_1900.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_007
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3551., x2 =      6412., dx =      1.842, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,5]
+MDF row: 8
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:48 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,5] to tmpsci9405_1903.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_008
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3390., x2 =      6234., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,6]
+MDF row: 9
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:48 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,6] to tmpsci9405_1906.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_009
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3647., x2 =      6494., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,7]
+MDF row: 10
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:48 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,7] to tmpsci9405_1909.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_010
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3959., x2 =      6806., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,8]
+MDF row: 11
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:48 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,8] to tmpsci9405_1912.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_011
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3523., x2 =      6369., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,9]
+MDF row: 12
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:49 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,9] to tmpsci9405_1915.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_012
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3039., x2 =      5849., dx =      1.831, nx = 1536, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,10]
+MDF row: 13
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:49 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,10] to tmpsci9405_1918.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_013
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4403., x2 =      7250., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,11]
+MDF row: 14
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:49 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,11] to tmpsci9405_1921.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_014
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4510., x2 =      7357., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,12]
+MDF row: 15
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:49 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,12] to tmpsci9405_1924.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_015
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4202., x2 =      7049., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,13]
+MDF row: 16
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:49 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,13] to tmpsci9405_1927.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_016
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3284., x2 =      6128., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,14]
+MDF row: 17
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:49 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,14] to tmpsci9405_1930.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_017
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3045., x2 =      5888., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,15]
+MDF row: 18
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:49 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,15] to tmpsci9405_1933.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_018
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3070., x2 =      5912., dx =       1.83, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,16]
+MDF row: 19
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:49 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,16] to tmpsci9405_1936.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_019
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3160., x2 =      6003., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,17]
+MDF row: 20
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:49 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,17] to tmpsci9405_1939.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_020
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3876., x2 =      6722., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,18]
+MDF row: 21
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:49 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,18] to tmpsci9405_1942.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_021
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3658., x2 =      6504., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,19]
+MDF row: 22
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:50 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,19] to tmpsci9405_1945.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_022
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4231., x2 =      7078., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,20]
+MDF row: 23
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:50 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,20] to tmpsci9405_1948.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_023
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3617., x2 =      6463., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,21]
+MDF row: 24
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:50 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,21] to tmpsci9405_1951.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_024
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4002., x2 =      6847., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-522.fits[SCI,22]
+MDF row: 25
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:50 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-522.fits[SCI,22] to tmpsci9405_1954.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0250_025
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4314., x2 =      7160., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Feb  1 14:46:50 EST 2017
+ 
+
+inimages   = Sculptor-field1-M01_B6-525
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20081120S0251
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,1]
+MDF row: 4
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:50 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,1] to tmpsci9405_1966.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_004
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4425., x2 =      7272., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,2]
+MDF row: 5
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:50 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,2] to tmpsci9405_1969.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_005
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3123., x2 =      5967., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,3]
+MDF row: 6
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:50 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,3] to tmpsci9405_1972.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_006
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4440., x2 =      7288., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,4]
+MDF row: 7
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:50 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,4] to tmpsci9405_1975.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_007
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3581., x2 =      6428., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,5]
+MDF row: 8
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:51 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,5] to tmpsci9405_1978.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_008
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3417., x2 =      6262., dx =      1.832, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,6]
+MDF row: 9
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:51 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,6] to tmpsci9405_1981.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_009
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3675., x2 =      6522., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,7]
+MDF row: 10
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:51 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,7] to tmpsci9405_1984.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_010
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3953., x2 =      6836., dx =      1.856, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,8]
+MDF row: 11
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:51 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,8] to tmpsci9405_1987.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_011
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3550., x2 =      6397., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,9]
+MDF row: 12
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:51 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,9] to tmpsci9405_1990.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_012
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3040., x2 =      5877., dx =      1.832, nx = 1550, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,10]
+MDF row: 13
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:51 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,10] to tmpsci9405_1993.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_013
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4430., x2 =      7278., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,11]
+MDF row: 14
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:51 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,11] to tmpsci9405_1996.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_014
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4537., x2 =      7385., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,12]
+MDF row: 15
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:51 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,12] to tmpsci9405_1999.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_015
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4229., x2 =      7077., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,13]
+MDF row: 16
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:51 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,13] to tmpsci9405_2002.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_016
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3312., x2 =      6156., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,14]
+MDF row: 17
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:51 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,14] to tmpsci9405_2005.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_017
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3073., x2 =      5916., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,15]
+MDF row: 18
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:51 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,15] to tmpsci9405_2008.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_018
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3097., x2 =      5941., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,16]
+MDF row: 19
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:52 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,16] to tmpsci9405_2011.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_019
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3188., x2 =      6032., dx =      1.831, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,17]
+MDF row: 20
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:52 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,17] to tmpsci9405_2014.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_020
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3906., x2 =      6727., dx =      1.817, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,18]
+MDF row: 21
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:52 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,18] to tmpsci9405_2017.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_021
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3683., x2 =      6543., dx =      1.841, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,19]
+MDF row: 22
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:52 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,19] to tmpsci9405_2020.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_022
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4258., x2 =      7106., dx =      1.834, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,20]
+MDF row: 23
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:52 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,20] to tmpsci9405_2023.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_023
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3644., x2 =      6491., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,21]
+MDF row: 24
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:52 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,21] to tmpsci9405_2026.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_024
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4030., x2 =      6849., dx =      1.815, nx = 1554, xlog = no
+    y1 =         1., y2 =        36., dy =         1., ny =   36, ylog = no
+Transforming Sculptor-field1-M01_B6-525.fits[SCI,22]
+MDF row: 25
+
+NOAO/IRAF V2.16 robin@RONNIEJAMESDIO-LINUX Wed 14:46:52 01-Feb-2017
+  Transform Sculptor-field1-M01_B6-525.fits[SCI,22] to tmpsci9405_2029.
+  Conserve flux per pixel.
+  User coordinate transformations:
+    gsS20081120S0251_025
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4340., x2 =      7187., dx =      1.833, nx = 1554, xlog = no
+    y1 =         1., y2 =        35., dy =         1., ny =   35, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
