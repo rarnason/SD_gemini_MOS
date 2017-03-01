@@ -55,4 +55,8 @@ pyraf/*
 raw/*
 sciencebackup/*
 uparm/*
+*Log.txt
+*.lis
+*.cl*
+*_B6*
 

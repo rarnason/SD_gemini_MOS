@@ -104,7 +104,7 @@ def gmos_mos_proc():
     gmos.gsflat.logfile = 'gsflatLog.txt'
     gmos.gsflat.rawpath = './raw'
     gmos.gsflat.verbose = 'no'
-    #call("ls Sculptor*.fits",shell=True)
+    call("ls Sculptor*.fits",shell=True)
     #Perform flat-field normalization for the science images
     print ("  -Full Flat (GCAL & Twi) normalization for science images, non-interactive-")
     qdf['DateObs'] = '*'
@@ -127,7 +127,7 @@ def gmos_mos_proc():
                          fl_keep='yes', combflat=combName, fl_usegrad='yes', 
                          fl_seprows='no', order='53')
             os.remove('flats_sci.lis')
-    #call("ls Sculptor*.fits",shell=True)
+    call("ls Sculptor*.fits",shell=True)
     #Perform flat-field normalization for the standard star. Standard star was taken at centw 415,520,625	
     print ("  -Full Flat (GCAL & Twi) normalization for the standard star, non-interactive-")
     qd_std['DateObs'] = '*'
@@ -149,7 +149,7 @@ def gmos_mos_proc():
                          fl_keep='yes', combflat=combName, fl_usegrad='yes', 
                          fl_seprows='no', order='53')
             os.remove('flats_std.lis')    
-    #call("ls Sculptor*.fits",shell=True)
+    call("ls Sculptor*.fits",shell=True)
     print ("=== Processing Science Files ===")
     print (" -- Performing Basic Processing --")
                  
@@ -177,7 +177,7 @@ def gmos_mos_proc():
         gmos.gsreduce (','.join(str(x) for x in sciFull), bias='MCbiasFull',
                   flatim=flatName, gradimage=gradName,
                   fl_vardq='yes', fl_fulldq='yes')
-    #call("ls Sculptor*.fits",shell=True)
+    call("ls Sculptor*.fits",shell=True)
     print ("  - GSReducing Longslit Std-star and Arc exposures -")
     for tag,w in cws.iteritems():
         qd_std['Disperser'] = tag[0:2] + '00+_%'
@@ -199,33 +199,30 @@ def gmos_mos_proc():
     
     #note that this construction works because there's only one exposure per position/grating/cenwave combo 
     #if you have multiple exposures, comment this block out and use gemcombine to do outlier rejection when combining images instead
+    gemtools.gemcrspec.unlearn()
+    gemtools.gemcrspec.xorder = '9'
+    gemtools.gemcrspec.yorder = '-1'
+    gemtools.gemcrspec.sigclip = '4.5'   
+    gemtools.gemcrspec.sigfrac= '0.5'
+    gemtools.gemcrspec.objlim = '1.0'
+    gemtools.gemcrspec.verbose = 'no'
     prefix = 'gs'
-    dontcrspec = False
-    if(dontcrspec == False):
-    	gemtools.gemcrspec.unlearn()
-    	gemtools.gemcrspec.xorder = '9'
-    	gemtools.gemcrspec.yorder = '-1'
-    	gemtools.gemcrspec.sigclip = '4.5'   
-    	gemtools.gemcrspec.sigfrac= '0.5'
-    	gemtools.gemcrspec.objlim = '1.0'
-    	gemtools.gemcrspec.verbose = 'no'
-    	prefix = 'gs'
-    	for tag,w in cwf.iteritems():
-        	qdf['Disperser'] = tag[0:2] + '00+_%'
-        	qdf['CentWave'] = w
-        	outFile = qdf['Object'] + '-M01_' + tag 
-        	sciFull = fs.fileListQuery(dbFile, fs.createQuery('sciSpec', qdf), qdf)
-        	#gemtools.gemcrspec(','.join(prefix+str(x) for x in sciFull), outFile)
-		gemtools.gemcrspec((prefix+str(sciFull[0])), outFile)
-    	# Do the same for the standard star
-    	for tag,w in cws.iteritems():
-        	qd_std['Disperser'] = tag[0:2] + '00+_%'
-        	qd_std['CentWave'] = w
-        	outFile = qd_std['Object'] + '-M01_' + tag
-        	stdFull = fs.fileListQuery(dbFile, fs.createQuery('std', qd_std), qd_std)
-        	#gemtools.gemcrspec(','.join(prefix+str(x) for x in stdFull), outFile)
-		gemtools.gemcrspec(str((prefix+stdFull[0])), outFile)
-    #call("ls Sculptor*.fits",shell=True)
+    for tag,w in cwf.iteritems():
+        qdf['Disperser'] = tag[0:2] + '00+_%'
+        qdf['CentWave'] = w
+        outFile = qdf['Object'] + '-M01_' + tag
+        sciFull = fs.fileListQuery(dbFile, fs.createQuery('sciSpec', qdf), qdf)
+	print sciFull
+        gemtools.gemcrspec(','.join(prefix+str(x) for x in sciFull), outFile)
+    # Do the same for the standard star
+    for tag,w in cws.iteritems():
+        qd_std['Disperser'] = tag[0:2] + '00+_%'
+        qd_std['CentWave'] = w
+        outFile = qd_std['Object'] + '-M01_' + tag
+        stdFull = fs.fileListQuery(dbFile, fs.createQuery('std', qd_std), qd_std)
+	print stdFull
+        gemtools.gemcrspec(','.join(prefix+str(x) for x in stdFull), outFile)  
+    call("ls Sculptor*.fits",shell=True)
 
     #Unused block for doing outlier rejection with multiple exposures per position/grating/cenwave combo
     '''
@@ -278,7 +275,7 @@ def gmos_mos_proc():
     for seq in ['249','250','251']:
         inFile = prefix + 'S20081120S0' + seq
         gmos.gswavelength(inFile,**waveFlags)
-    #call("ls Sculptor*.fits",shell=True)
+    call("ls Sculptor*.fits",shell=True)
     #This block is in the tutorial but it seems incorrect - it applies the calibration to non gsreduced arcs!!
     '''
     for tag,w in cwf.iteritems():
@@ -304,7 +301,7 @@ def gmos_mos_proc():
                   **transFlags)
     gmos.gstransform ('LTT1020-M01_B6-625', wavtraname='gsS20081129S0093',
                   **transFlags)
-    #call("ls Sculptor*.fits",shell=True)
+    call("ls Sculptor*.fits",shell=True)
     #This block seems to operate on the non CR-cleaned images! 
     '''
     transMap = {
@@ -328,7 +325,7 @@ def gmos_mos_proc():
                   **transFlags)
     gmos.gstransform ('Sculptor-field1-M01_B6-525', wavtraname='gsS20081120S0251',
                   **transFlags)
-    #call("ls Sculptor*.fits",shell=True)
+    call("ls Sculptor*.fits",shell=True)
     #Note that our standard star is extremely bright so the signal is swamped by light from the star - this step is probably optional
     print (" == Beginning flux calibration == " )
     print (" -- Performing sky subtraction on standard star -- " )
@@ -336,21 +333,13 @@ def gmos_mos_proc():
     # This will require summing the spectra along columns, e.g.:
     #   iraf.pcols("tLTT1020-M01_B6-415.fits[SCI]",400,1400,wy1=0,wy2=1000) 
     # The sky regions should be selected with care, using e.g. prows/pcols.
-    try:
-    	os.remove('gsskysubLog.txt')
-    except OSError:
-    	pass
     gmos.gsskysub.unlearn()
     gmos.gsskysub.logfile='gsskysubLog.txt'
     gmos.gsskysub.fl_oversize = 'no'
     gmos.gsskysub.verbose = 'no'
 
     gmos.gsskysub ('tLTT1020-M01_*', long_sample='850:1000,1350:1500')
-    print (" -- Performing sky subtraction on science data -- " )
-    gmos.gsskysub.mosobjsize = 2
-    gmos.gsskysub('tSculptor-field1-M01*',fl_inter="no")
-
-    #call("ls Sculptor*.fits",shell=True)
+    call("ls Sculptor*.fits",shell=True)
     print(" -- Extracting longslit 1-D spectra of standard stars -- ")
 	
     gmos.gsextract.unlearn()
@@ -368,21 +357,13 @@ def gmos_mos_proc():
     print(" -- Flux calibrating the standard star -- ")  
     gmos.gsstandard.unlearn()
     sensFlags = {
-    'fl_inter':'yes','starname':'1020','caldir':'onedstds$ctionewcal/',
+    'fl_inter':'yes','starname':'l1020','caldir':'onedstds$ctionewcal/',
     'observatory':'Gemini-South','extinction':'onedstds$ctioextinct.dat',
     'function':'spline3','order':7,'verbose':'no','logfile':'gsstdLog.txt'
 	}
     gmos.gsstandard ('estLTT1020-M01_B6*', sfile='std_B6', sfunction='sens_B6',
                  **sensFlags)
-    #call("ls Sculptor*.fits",shell=True)
-
-    print(" -- Extracting 1-D spectra from science images -- ")
-    extrFlags.update({'apwidth':2.5,'mos_bsample':1.0,'torder':1,'tnsum':50,
-                  'tfunction':'spline3','background':'median',
-                  'fl_inter':'no','fl_vardq':'no'})
-    gmos.gsextract ('stSculptor-field1-M01_B6-520', **extrFlags)
-    gmos.gsextract ('stSculptor-field1-M01_B6-522', **extrFlags)
-    gmos.gsextract ('stSculptor-field1-M01_B6-525', **extrFlags)
+    call("ls Sculptor*.fits",shell=True)
     print (" --Processing done-- ")
 if __name__ == "__main__":
     gmos_mos_proc()

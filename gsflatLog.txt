@@ -1,6 +1,6 @@
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:23:19 EST 2017
+GSFLAT -- Mon Feb 27 14:50:50 EST 2017
 
 Input images or list              = @flats_sci.lis
 Output spectral flat              = MCgcalFlat-M01_B6-522
@@ -55,7 +55,7 @@ ERROR - GSFLAT: Program execution failed with 2 errors.
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:23:20 EST 2017
+GSFLAT -- Mon Feb 27 14:50:51 EST 2017
 
 Input images or list              = @flats_sci.lis
 Output spectral flat              = MCgcalFlat-M01_B6-520
@@ -110,7 +110,7 @@ ERROR - GSFLAT: Program execution failed with 2 errors.
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:23:20 EST 2017
+GSFLAT -- Mon Feb 27 14:50:51 EST 2017
 
 Input images or list              = @flats_sci.lis
 Output spectral flat              = MCgcalFlat-M01_B6-525
@@ -165,7 +165,7 @@ ERROR - GSFLAT: Program execution failed with 2 errors.
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:23:20 EST 2017
+GSFLAT -- Mon Feb 27 14:50:51 EST 2017
 
 Input images or list              = @flats_std.lis
 Output spectral flat              = MCgcalFlat-M01_B6-625
@@ -220,7 +220,7 @@ ERROR - GSFLAT: Program execution failed with 2 errors.
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:23:20 EST 2017
+GSFLAT -- Mon Feb 27 14:50:51 EST 2017
 
 Input images or list              = @flats_std.lis
 Output spectral flat              = MCgcalFlat-M01_B6-520
@@ -275,7 +275,7 @@ ERROR - GSFLAT: Program execution failed with 2 errors.
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:23:20 EST 2017
+GSFLAT -- Mon Feb 27 14:50:51 EST 2017
 
 Input images or list              = @flats_std.lis
 Output spectral flat              = MCgcalFlat-M01_B6-415
@@ -330,7 +330,7 @@ ERROR - GSFLAT: Program execution failed with 2 errors.
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:42:19 EST 2017
+GSFLAT -- Mon Feb 27 15:08:02 EST 2017
 
 Input images or list              = @flats_sci.lis
 Output spectral flat              = MCgcalFlat-M01_B6-522
@@ -385,7 +385,7 @@ ERROR - GSFLAT: Program execution failed with 2 errors.
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:42:20 EST 2017
+GSFLAT -- Mon Feb 27 15:08:03 EST 2017
 
 Input images or list              = @flats_sci.lis
 Output spectral flat              = MCgcalFlat-M01_B6-520
@@ -440,7 +440,7 @@ ERROR - GSFLAT: Program execution failed with 2 errors.
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:42:20 EST 2017
+GSFLAT -- Mon Feb 27 15:08:03 EST 2017
 
 Input images or list              = @flats_sci.lis
 Output spectral flat              = MCgcalFlat-M01_B6-525
@@ -495,7 +495,7 @@ ERROR - GSFLAT: Program execution failed with 2 errors.
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:42:20 EST 2017
+GSFLAT -- Mon Feb 27 15:08:03 EST 2017
 
 Input images or list              = @flats_std.lis
 Output spectral flat              = MCgcalFlat-M01_B6-625
@@ -550,7 +550,7 @@ ERROR - GSFLAT: Program execution failed with 2 errors.
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:42:20 EST 2017
+GSFLAT -- Mon Feb 27 15:08:03 EST 2017
 
 Input images or list              = @flats_std.lis
 Output spectral flat              = MCgcalFlat-M01_B6-520
@@ -605,7 +605,667 @@ ERROR - GSFLAT: Program execution failed with 2 errors.
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Wed Feb  1 14:42:20 EST 2017
+GSFLAT -- Mon Feb 27 15:08:03 EST 2017
+
+Input images or list              = @flats_std.lis
+Output spectral flat              = MCgcalFlat-M01_B6-415
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-415
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-415 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-415 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Mon Feb 27 15:09:01 EST 2017
+
+Input images or list              = @flats_sci.lis
+Output spectral flat              = MCgcalFlat-M01_B6-522
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-522
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-522 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-522 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Mon Feb 27 15:09:01 EST 2017
+
+Input images or list              = @flats_sci.lis
+Output spectral flat              = MCgcalFlat-M01_B6-520
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-520
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-520 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-520 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Mon Feb 27 15:09:02 EST 2017
+
+Input images or list              = @flats_sci.lis
+Output spectral flat              = MCgcalFlat-M01_B6-525
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-525
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-525 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-525 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Mon Feb 27 15:09:02 EST 2017
+
+Input images or list              = @flats_std.lis
+Output spectral flat              = MCgcalFlat-M01_B6-625
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-625
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-625 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-625 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Mon Feb 27 15:09:02 EST 2017
+
+Input images or list              = @flats_std.lis
+Output spectral flat              = MCgcalFlat-M01_B6-520
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-520
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-520 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-520 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Mon Feb 27 15:09:02 EST 2017
+
+Input images or list              = @flats_std.lis
+Output spectral flat              = MCgcalFlat-M01_B6-415
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-415
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-415 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-415 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Tue Feb 28 13:39:16 EST 2017
+
+Input images or list              = @flats_sci.lis
+Output spectral flat              = MCgcalFlat-M01_B6-522
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-522
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-522 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-522 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Tue Feb 28 13:39:17 EST 2017
+
+Input images or list              = @flats_sci.lis
+Output spectral flat              = MCgcalFlat-M01_B6-520
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-520
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-520 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-520 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Tue Feb 28 13:39:17 EST 2017
+
+Input images or list              = @flats_sci.lis
+Output spectral flat              = MCgcalFlat-M01_B6-525
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-525
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-525 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-525 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Tue Feb 28 13:39:17 EST 2017
+
+Input images or list              = @flats_std.lis
+Output spectral flat              = MCgcalFlat-M01_B6-625
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-625
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-625 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-625 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Tue Feb 28 13:39:17 EST 2017
+
+Input images or list              = @flats_std.lis
+Output spectral flat              = MCgcalFlat-M01_B6-520
+Correct for slit function         = no
+Keep combined flat combflat       = yes
+Combined flat (not normalized)    = MCgcalFlatComb-M01_B6-520
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 53
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = no
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = yes
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = no
+Fit rows separately  fl_seprows = no
+Use gradient method  fl_usegrad= yes
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ./raw
+
+ERROR - GSFLAT: Output file MCgcalFlat-M01_B6-520 already exists.
+ERROR - GSFLAT: Output file MCgcalFlatComb-M01_B6-520 already exists.
+ERROR - GSFLAT: 2 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 2 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Tue Feb 28 13:39:17 EST 2017
 
 Input images or list              = @flats_std.lis
 Output spectral flat              = MCgcalFlat-M01_B6-415
