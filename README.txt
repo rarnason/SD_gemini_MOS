@@ -8,3 +8,4 @@ We have included a file listing the md5sums of the data files in here.
 If you have the 'md5sum' utility installed (most Linux machines at least),
 You can verify file integrity by running 'md5sum -c md5sums.txt'.
 
+"Hello world!"
